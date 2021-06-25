@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 import './App.css';
 
 function App() {
@@ -7,18 +8,8 @@ function App() {
    <div className="App">
 		<NavBar/>
 		<header className="App-header">
-			<img src={logo} className="App-logo" alt="logo" />
-			<p>
-			  mitienda-gonzalezsanabria
-					  </p>
-			<a
-			  className="App-link"
-			  href="https://reactjs.org"
-			  target="_blank"
-			  rel="noopener noreferrer"
-			>
-			  Learn React
-			</a>
+			<h1>Pizzas y algo mas...</h1>
+		<ItemListContainer/>	
       </header>
     </div>
   );
